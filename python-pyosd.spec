@@ -1,9 +1,9 @@
 %include	/usr/lib/rpm/macros.python
 
-%define         module pyosd
+%define         module	pyosd
 
-Summary:	xosd bindings for python
-Summary(pl):	modu³ xosd dla pythona
+Summary:	xosd bindings for Python
+Summary(pl):	Modu³ xosd dla Pythona
 Name:		python-%{module}
 Version:	0.2.9
 Release:	1
@@ -19,14 +19,14 @@ BuildRequires:	xosd-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-pyosd is a python module for displaying text on your X display, much
+pyosd is a Python module for displaying text on your X display, much
 like the "On Screen Displays" used on TVs and some monitors.
 
 This is useful for such things as displaying the currently playing
 song in your media player.
 
 %description -l pl
-pyosd jest modu³em dla jêzyka python umo¿liwiaj±cym wy¶wietlanie
+pyosd jest modu³em dla jêzyka Python umo¿liwiaj±cym wy¶wietlanie
 tekstów na ekranie serwera X, podobnie jak "On Screen Display" u¿ywany
 w telewizorach i monitorach.
 
