@@ -57,5 +57,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README* ChangeLog pyosd.html
 %dir %{py_sitedir}/%{module}
-%{py_sitedir}/%{module}/*.py[co]
+%{py_sitedir}/%{module}/*
 %attr(755,root,root) %{py_sitedir}/*.so
