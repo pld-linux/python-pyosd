@@ -1,5 +1,5 @@
 
-%define         module	pyosd
+%define		module	pyosd
 
 Summary:	xosd bindings for Python
 Summary(pl):	Modu³ xosd dla Pythona
