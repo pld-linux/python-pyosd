@@ -12,7 +12,7 @@ Source0:	http://repose.cx/pyosd/%{module}-%{version}.tar.gz
 # Source0-md5:	170a49847c4ef7899acec7ec339083fa
 URL:		http://repose.cx/pyosd/
 %pyrequires_eq	python-modules
-BuildRequires:	python-devel >= 2.3
+BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	rpm-pythonprov
 BuildRequires:	xosd-devel >= 2.2.5
 Requires:	xosd >= 2.2.5
