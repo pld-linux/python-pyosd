@@ -4,12 +4,12 @@
 Summary:	xosd bindings for Python
 Summary(pl):	Modu³ xosd dla Pythona
 Name:		python-%{module}
-Version:	0.2.10
-Release:	2
+Version:	0.2.11
+Release:	1
 License:	GNU
 Group:		Development/Languages/Python
 Source0:	http://repose.cx/pyosd/%{module}-%{version}.tar.gz
-# Source0-md5:	170a49847c4ef7899acec7ec339083fa
+# Source0-md5:	5e11a005527505a6c7ea759a33653429
 URL:		http://repose.cx/pyosd/
 %pyrequires_eq	python-modules
 BuildRequires:	python-devel >= 1:2.3
