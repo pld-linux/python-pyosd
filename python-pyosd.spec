@@ -39,7 +39,7 @@ piosenki czy filmu.
 
 %build
 CFLAGS="%{rpmcflags}"
-export CLFAGS
+export CFLAGS
 python setup.py build
 
 %install
