@@ -6,7 +6,7 @@ Summary:	xosd bindings for Python
 Summary(pl):	Modu³ xosd dla Pythona
 Name:		python-%{module}
 Version:	0.2.9
-Release:	1
+Release:	2
 License:	GNU
 Group:		Development/Languages/Python
 Source0:	http://repose.cx/pyosd/%{module}-%{version}.tar.gz
@@ -15,7 +15,8 @@ URL:		http://repose.cx/pyosd/
 %pyrequires_eq	python-modules
 BuildRequires:	python-devel >= 2.3
 BuildRequires:	rpm-pythonprov
-BuildRequires:	xosd-devel
+BuildRequires:	xosd-devel >= 2.2.5
+Requires:	xosd >= 2.2.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -47,7 +48,7 @@ install -d $RPM_BUILD_ROOT%{py_sitedir}
 
 python setup.py install \
 	--root=$RPM_BUILD_ROOT \
-	--install-lib=%{py_sitescriptdir} \
+	--install-lib=%{py_sitedir} \
 	--optimize=2
 
 %clean
@@ -56,6 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README* ChangeLog pyosd.html
-%dir %{py_sitescriptdir}/%{module}
-%{py_sitescriptdir}/%{module}/*.py[co]
-%attr(755,root,root) %{py_sitescriptdir}/*.so
+%dir %{py_sitedir}/%{module}
+%{py_sitedir}/%{module}/*.py[co]
+%attr(755,root,root) %{py_sitedir}/*.so
