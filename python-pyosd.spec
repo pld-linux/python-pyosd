@@ -44,6 +44,7 @@ python setup.py build
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{py_sitedir}
+
 python setup.py install \
 	--root=$RPM_BUILD_ROOT \
 	--install-lib=%{py_sitescriptdir} \
@@ -57,4 +58,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc README* ChangeLog pyosd.html
 %dir %{py_sitescriptdir}/%{module}
 %{py_sitescriptdir}/%{module}/*.py[co]
-%{py_sitescriptdir}/*.so
+%attr(755,root,root) %{py_sitescriptdir}/*.so
