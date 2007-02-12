@@ -2,7 +2,7 @@
 %define		module	pyosd
 
 Summary:	xosd bindings for Python
-Summary(pl):	Modu≥ xosd dla Pythona
+Summary(pl.UTF-8):   Modu≈Ç xosd dla Pythona
 Name:		python-%{module}
 Version:	0.2.14
 Release:	1
@@ -24,12 +24,12 @@ like the "On Screen Displays" used on TVs and some monitors.
 This is useful for such things as displaying the currently playing
 song in your media player.
 
-%description -l pl
-pyosd jest modu≥em dla jÍzyka Python umoøliwiaj±cym wy∂wietlanie
-tekstÛw na ekranie serwera X, podobnie jak "On Screen Display" uøywany
+%description -l pl.UTF-8
+pyosd jest modu≈Çem dla jƒôzyka Python umo≈ºliwiajƒÖcym wy≈õwietlanie
+tekst√≥w na ekranie serwera X, podobnie jak "On Screen Display" u≈ºywany
 w telewizorach i monitorach.
 
-Moøe to zostaÊ wykorzystane do wy∂wietlania aktualnie odtwarzanej
+Mo≈ºe to zostaƒá wykorzystane do wy≈õwietlania aktualnie odtwarzanej
 piosenki czy filmu.
 
 %prep
