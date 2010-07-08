@@ -5,7 +5,7 @@ Summary:	xosd bindings for Python
 Summary(pl.UTF-8):	Moduł xosd dla Pythona
 Name:		python-%{module}
 Version:	0.2.14
-Release:	2
+Release:	3
 License:	GNU
 Group:		Development/Languages/Python
 Source0:	http://repose.cx/pyosd/%{module}-%{version}.tar.gz
