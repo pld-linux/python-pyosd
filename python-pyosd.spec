@@ -11,6 +11,7 @@ Group:		Development/Languages/Python
 Source0:	http://repose.cx/pyosd/%{module}-%{version}.tar.gz
 # Source0-md5:	3beb6692c4d76b3318e7876a6dd03bdf
 URL:		http://repose.cx/pyosd/
+BuildRequires:	rpmbuild(macros) >= 1.710
 %pyrequires_eq	python-modules
 BuildRequires:	python-devel >= 1:2.3
 BuildRequires:	python-modules
